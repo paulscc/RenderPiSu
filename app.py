@@ -9,6 +9,7 @@ from functools import wraps
 from ariadne import QueryType, MutationType, make_executable_schema, graphql_sync
 from ariadne.explorer.playground import PLAYGROUND_HTML  # ✅ nuevo lugar
 from firebase_admin import firestore
+import time
 
 app = Flask(__name__)
 CORS(app)
@@ -19,7 +20,7 @@ request_tracker = {}
 
 def limpiar_tracker():
     
-    now = time.time()
+    now = time()
     to_delete = []
     for key, data in request_tracker.items():
         if now - data['first_request'] > 3600:  # 1 hora
