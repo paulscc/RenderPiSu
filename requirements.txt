@@ -5,4 +5,4 @@ firebase-admin==6.4.0
 python-dotenv==1.0.0
 Pillow==10.2.0
 gunicorn==21.2.0
-ariadne[explorer]==0.17.1
+ariadne==0.22
