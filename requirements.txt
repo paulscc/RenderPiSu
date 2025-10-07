@@ -4,3 +4,4 @@ supabase==2.3.0
 python-dotenv==1.0.0
 ariadne==0.22.0
 httpx==0.24.1
+gunicorn
