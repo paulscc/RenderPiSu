@@ -1,8 +1,6 @@
-
 Flask==3.0.0
 flask-cors==4.0.0
-firebase-admin==6.4.0
+supabase==2.3.0
 python-dotenv==1.0.0
-Pillow==10.2.0
-gunicorn==21.2.0
-ariadne==0.22
+ariadne==0.22.0
+httpx==0.24.1
