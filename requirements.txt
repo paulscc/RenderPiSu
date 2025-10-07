@@ -1,7 +1,9 @@
 Flask==3.0.0
 flask-cors==4.0.0
-supabase==2.3.0
+# UPDATE to the latest stable version
+supabase
 python-dotenv==1.0.0
 ariadne==0.22.0
-httpx==0.24.1
-gunicorn
+# UPDATE to a more recent, compatible version
+httpx
+gunicorn # Ensure this is also present for the start command
